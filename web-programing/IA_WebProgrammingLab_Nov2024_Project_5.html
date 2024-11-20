@@ -3,52 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Lists</title>
+    <title>HTML Lists Example</title>
+    <style>
+        /* Styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        section {
+            margin: 20px 0;
+        }
+        ul, ol {
+            margin: 10px 20px;
+            padding-left: 40px;
+        }
+        dl {
+            margin: 10px 20px;
+        }
+        dt {
+            font-weight: bold;
+        }
+        dd {
+            margin-left: 20px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Heading -->
+    <!-- Main Heading -->
     <h1>HTML List Types</h1>
-
-    <!-- Unordered List -->
-    <h2>Unordered List</h2>
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <!-- Ordered List -->
-    <h2>Ordered List</h2>
-    <ol>
-        <li>First Item</li>
-        <li>Second Item</li>
-        <li>Third Item</li>
-    </ol>
-
-    <!-- Description List -->
-    <h2>Description List</h2>
-    <dl>
-        <dt>HTML</dt>
-        <dd>A markup language.</dd>
-        <dt>CSS</dt>
-        <dd>Used for styling.</dd>
-    </dl>
-
-    <!-- Nested List -->
-    <h2>Nested List</h2>
-    <ul>
-        <li>Fruits
-            <ul>
-                <li>Apple</li>
-                <li>Banana</li>
-            </ul>
-        </li>
-        <li>Vegetables
-            <ol>
-                <li>Carrot</li>
-                <li>Spinach</li>
-            </ol>
-        </li>
-    </ul>
+    
+    <!-- Unordered List Section -->
+    <section>
+        <h2>Unordered List</h2>
+        <p>An unordered list uses bullet points to list items:</p>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+        </ul>
+    </section>
+    
+    <!-- Ordered List Section -->
+    <section>
+        <h2>Ordered List</h2>
+        <p>An ordered list uses numbers or letters to sequence items:</p>
+        <ol>
+            <li>Step 1: Gather materials</li>
+            <li>Step 2: Assemble components</li>
+            <li>Step 3: Test functionality</li>
+        </ol>
+    </section>
+    
+    <!-- Nested List Section -->
+    <section>
+        <h2>Nested List</h2>
+        <p>A nested list contains sub-items within a list:</p>
+        <ul>
+            <li>Fruits
+                <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                </ul>
+            </li>
+            <li>Vegetables
+                <ul>
+                    <li>Carrot</li>
+                    <li>Spinach</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    
+    <!-- Description List Section -->
+    <section>
+        <h2>Description List</h2>
+        <p>A description list is used for terms and their descriptions:</p>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language, the standard language for creating web pages.</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets, used for styling web pages.</dd>
+            <dt>JavaScript</dt>
+            <dd>A programming language used to create interactive effects within web browsers.</dd>
+        </dl>
+    </section>
 </body>
 </html>
